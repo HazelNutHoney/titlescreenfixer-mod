@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "dev.hazel.titlescreenfixer.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+      "TitleScreenMixin",
+      "ScreenMixin",
+      "MultiplayerScreenMixin",
+      "FriendsOverlayScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

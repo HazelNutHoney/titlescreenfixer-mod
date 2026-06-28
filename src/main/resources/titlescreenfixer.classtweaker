@@ -1,0 +1,9 @@
+accessWidener v2 official
+
+accessible field net/minecraft/client/gui/screens/friends/FriendsOverlayScreen layout Lnet/minecraft/client/gui/layouts/LinearLayout;
+accessible field net/minecraft/client/gui/screens/friends/FriendsOverlayScreen tabNavigationBar Lnet/minecraft/client/gui/components/tabs/TabNavigationBar;
+accessible class net/minecraft/client/gui/screens/friends/AddFriendWidget
+accessible class net/minecraft/client/gui/screens/friends/AddFriendWidget$State
+accessible method net/minecraft/client/gui/screens/friends/AddFriendWidget <init> (ILjava/lang/Runnable;)V
+accessible class net/minecraft/client/gui/screens/friends/AbstractFriendsEntryContainerWidget
+accessible method net/minecraft/client/gui/screens/friends/AbstractFriendsEntryContainerWidget getSpriteIconNarration (Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/Button$CreateNarration;

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "titlescreenfixer",
+	"version": "${version}",
+	"name": "TitleScreen Fixer",
+	"description": "Fixes the >=26.2 TitleScreen to be like the old one and adds the friends menu to the multiplayer screen",
+	"authors": [
+		"Hazel_Honey"
+	],
+	"contact": {
+		"homepage": "https://github.com/hazelnutzhoney/titlescreenfixer-mod",
+		"sources": "https://github.com/hazelnutzhoney/titlescreenfixer-mod"
+	},
+	"license": "GPL-3",
+	"icon": "assets/titlescreenfixer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "dev.hazel.titlescreenfixer.TitleScreenFixer"
+		]
+	},
+	"mixins": [
+		"titlescreenfixer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+    "accessWidener": "titlescreenfixer.classtweaker"
+}
